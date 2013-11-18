@@ -10,6 +10,8 @@
     "url": "https://github.com/marionettejs/backbone.marionette.git"
   },
   "dependencies": {
+    "components/jquery": "2.0.3",
+    "components/underscore": "1.4.4",
     "components/backbone": "1.0.0"
   },
   "version": "1.1.0",
