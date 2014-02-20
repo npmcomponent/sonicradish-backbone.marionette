@@ -20,10 +20,10 @@
 (function (root, factory) {
   if (typeof exports === 'object') {
 
-    var underscore = require('underscore');
-    var backbone = require('backbone');
-    var wreqr = require('backbone.wreqr');
-    var babysitter = require('backbone.babysitter');
+    // commented out by npm-component: var underscore = require('underscore');
+    var backbone = require('components-backbone');
+    // commented out by npm-component: var wreqr = require('backbone.wreqr');
+    // commented out by npm-component: var babysitter = require('backbone.babysitter');
 
     module.exports = factory(underscore, backbone, wreqr, babysitter);
 

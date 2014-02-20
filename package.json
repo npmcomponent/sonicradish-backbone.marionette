@@ -1,9 +1,9 @@
 {
-  "name": "sonicradish-backbone.marionettejs",
-  "description": "Make your Backbone.js apps dance! Shim repository.",
-  "homepage": "http://marionettejs.com/",
+  "name": "sonicradish-backbone.marionette",
+  "description": "Make your Backbone.js apps dance!",
+  "version": "1.1.0",
   "keywords": [
-      "backbone",
+    "backbone",
     "plugin",
     "marionette",
     "composite",
@@ -13,21 +13,9 @@
     "app",
     "client",
     "browser"
-],
-  "dependencies": {
-    "backbone.babysitter": "~0.0.6",
-    "backbone.wreqr": "~0.2.0",
-    "backbone": "~1.0.0"
-  },
-  "author": {
-    "name": "Derick Bailey",
-    "email": "derickbailey@gmail.com",
-    "web": "http://derickbailey.lostechies.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/marionettejs/backbone.marionette.git"
-  },
+  ],
   "main": "backbone.marionette.js",
-  "version": "1.1.0"
+  "dependencies": {
+    "components-backbone": "git://github.com/npmcomponent/components-backbone.git"
+  }
 }
